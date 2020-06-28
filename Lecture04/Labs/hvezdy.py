@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from turtle import *
 import time
 import math
@@ -22,8 +20,8 @@ def polygram(n, variant=1, a=300):
     penup()
 
 def star(n, a=200, zaklad=100):
-    uhel1 = 180 - 2*math.asin(zaklad/2/a)/math.pi*180       # doplněk do 180 vnitřního úhlu hvězdy
-    uhel2 = -360/n+2*math.acos(zaklad/2/a)/math.pi*180      # doplněk do 180 vnějšího úhlu hvězdy
+    uhel1 = 180 - 2*math.asin(zaklad/2/a)/math.pi*180       
+    uhel2 = -360/n+2*math.acos(zaklad/2/a)/math.pi*180      
     print(uhel1, uhel2)
     left(math.acos(zaklad/2/a)/math.pi*180)
     for i in range(n):
