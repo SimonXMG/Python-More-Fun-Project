@@ -17,7 +17,7 @@ for i in range(7):
     t.setheading(heading)
     t.pendown()
 
-    arrowhead_curve(i, size)
+#    arrowhead_curve(i, size)
 #    caesaro(i, size)
 #    dragon_curve(i, size)
 #    h_tree(i, size, angle=90, par=1/math.sqrt(2))
