@@ -11,13 +11,7 @@ def replace( seq, repRules, n ):
     return seq
 def draw( commands, rules ):
     for x in commands:
-        try:
             rules[x]()
-        except TypeError:
-            try:
-                draw(rules[x], rules)
-            except:
-                pass
 
 def r():
     right(45)
