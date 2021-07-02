@@ -25,7 +25,6 @@ def tree(tlist, size, level, wfactor, blists, adist=10, sdist=5):
             brs = []
             t.width(size * wfactor)
             t.color(255 - (180 - 11 * level + rr(-15,16)),  180 - 11 * level + rr(-15,16),  0)
-            t.down()
             randomfd(t, size, level, adist)
             yield None
             for angle, sfactor in blist:
