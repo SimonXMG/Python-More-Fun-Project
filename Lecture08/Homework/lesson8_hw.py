@@ -45,3 +45,5 @@ XOR = decrypt(int(r1), int(r2))
 print('XOR decryped: ',XOR)
 decrypted=translate(XOR, -len(XOR))
 print("Caesar decrypted: ",decrypted)
+if decrypted == secret:
+    print('encrypt / decrypt successfully!')
